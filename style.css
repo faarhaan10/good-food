@@ -1,3 +1,42 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+.menu{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.menu-logo-part{
+    width: 40%;
+}
+.menu-logo{
+    width: 100%;
+
+}
+.menu-list-part{
+    width: 60%;
+}
+.menu-list-part ul{
+    display: flex;
+    
+}
+.menu-list-part ul li {
+    list-style-type: none;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 20px;
+    color: cornsilk;
+}
+.menu-list-part ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
 }
