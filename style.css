@@ -5,7 +5,7 @@ body{
 nav{
     width: 100%;
     height: 100px;
-    background-color: blueviolet;
+    background-color: #39ad09;;
 }
 .menu{
     width: 80%;
@@ -34,9 +34,50 @@ nav{
     margin-top: 20px;
     color: cornsilk;
 }
-.menu-list-part ul li a{
+.menu-list-part li a{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     padding: 10px 20px;
     text-decoration: none;
+}
+
+.header-bg{
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+}
+.container{
+    width: 95%;
+    height: 900px;
+    margin-left: 5%;
+    display: flex;
+
+}
+.container-half{
+    width: 50%;
+}
+.container-inner{
+    padding-top:30%;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.name-color{
+    color:rgb(0 197 33);
+}
+.container-inner p{
+    font-size: 30px;
+    color:#6d6c6c;
+    margin-bottom: 10%;
+    font-weight: 700;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient( 
+45deg
+ , #94f961, #11dc2a);
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
 }
