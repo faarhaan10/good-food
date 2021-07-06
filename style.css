@@ -33,13 +33,15 @@ background-image: linear-gradient(to right, #1fbb34, #03e634);
     width: 20%;
     margin-right: 5%;
     margin-top: 10px;
-    color: cornsilk;
 }
 .menu-list-part li a{
+    width: 100%;
     font-size: 20px;
     font-weight: 700;
     padding: 10px 20px;
     text-decoration: none;
+    text-align:center;
+    color: cornsilk;
 }
 
 .header-bg{
