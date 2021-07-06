@@ -96,7 +96,7 @@ h1{
 }
 
 .my-recipie-bg{
-    background-image: url(images/receipie-bg.jpg);
+    background-image: url(images/receipie-bg.png);
     background-size: cover;
     overflow: hidden;
 }
@@ -149,7 +149,7 @@ h3{
     font-weight: 400;
 }
 .bottom-bg{
-    background-image: url(images/receipie-bg.jpg);
+    background-image: url(images/bottom-bg.png);
     background-size: cover;
     overflow: hidden;
     padding-top: 5%;
