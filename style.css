@@ -63,21 +63,21 @@ background-image: linear-gradient(to right, #1fbb34, #03e634);
     
 .container-inner{
     width: 95%;
-    padding-top:30%;
+    padding-top:20%;
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
 }
 .name-color{
     color:rgb(0 197 33);
 }
-.container-inner p{
-    font-size: 30px;
+.container-inner p,.recipie-top p{
+    font-size: 20px;
     color:#6d6c6c;
     margin-bottom: 10%;
     margin-right: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .anchor-button{
     text-decoration: none;
@@ -103,6 +103,8 @@ h1{
 .recipie-top{
     text-align: center;
     padding: 20px 40px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 h2{
     font-size: 40px;
@@ -169,4 +171,18 @@ h3{
 }
 .bottom-container-boxes img{
     width: 50%;
+}
+footer{
+    text-align: center;
+    background-color: #141714;
+    
+}
+.footer-color{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+color:white;
+margin: 0;
+padding:10px;
 }
