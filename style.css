@@ -94,3 +94,49 @@ h1{
     background-size: cover;
     overflow: hidden;
 }
+
+.my-recipie-bg{
+    background-image: url(images/receipie-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.recipie-top{
+    text-align: center;
+    padding: 20px 40px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(56, 202, 37);
+}
+h3{
+    font-size: 20px;
+    font-weight: 00;
+    color: rgb(56, 202, 37);
+}
+.recipie-top p{
+    padding: 10px 50px;
+    font-size: 20px;
+    color: rgb(111, 117, 110);
+
+}
+.recipie-bottom{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+.recipies{
+    width: 25%;
+    height: 450px;
+    margin-left: 5%;
+    padding: 10px 15px;
+    border-radius: 30px;box-shadow: 5px 7px 40px grey;
+    background-color: white;
+}
+.recipies img{
+    width: 100%;
+    padding-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
