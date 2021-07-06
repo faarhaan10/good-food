@@ -111,13 +111,12 @@ h2{
 }
 h3{
     font-size: 20px;
-    font-weight: 00;
+    font-weight: 500;
     color: rgb(56, 202, 37);
 }
 .recipie-top p{
     padding: 10px 50px;
     font-size: 20px;
-    color: rgb(111, 117, 110);
 
 }
 .recipie-bottom{
@@ -134,9 +133,15 @@ h3{
     border-radius: 30px;box-shadow: 5px 7px 40px grey;
     background-color: white;
 }
+
 .recipies img{
     width: 100%;
     padding-top: 10px;
     border-radius: 30px;
     text-align: center;
+}
+.recipies a{
+    text-decoration: none;
+    color: rgb(58,58,58);
+    font-weight: 400;
 }
