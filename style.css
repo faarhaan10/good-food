@@ -182,6 +182,9 @@ footer{
 .footer-color{
     padding-top: 20px;
     padding-bottom: 20px;
+    background-image: linear-gradient(
+        45deg
+        , #5d5252, transparent);
 }
 footer p{
 color:white;
