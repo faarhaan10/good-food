@@ -124,6 +124,7 @@ h3{
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
+    padding-bottom: 5%;
 }
 .recipies{
     width: 25%;
@@ -144,4 +145,28 @@ h3{
     text-decoration: none;
     color: rgb(58,58,58);
     font-weight: 400;
+}
+.bottom-bg{
+    background-image: url(images/receipie-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.bottom-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;box-shadow: 5px 7px 40px grey;
+    text-align: center;
+    padding: 10px 20px;
+}
+.bottom-container-boxes{
+    width: 25%;
+    padding: 5px 15px;
+}
+.bottom-container-boxes img{
+    width: 50%;
 }
